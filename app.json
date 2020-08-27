@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "iqra-app",
-    "slug": "iqra-app",
+    "name": "iqra",
+    "slug": "iqra",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "entryPoint": "node_modules/expo/AppEntry.js",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,15 +17,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.mss.iqra",
-      "infoPlist": {
-        "NSCameraUsageDescription": "This app uses the camera to upload image.",
-        "NSPhotoLibraryUsageDescription":"This app uses the photo library to upload existing image."
-      }
-    },
-    "android": {
-      "package": "com.mss.iqra"
+      "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
